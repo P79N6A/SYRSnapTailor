@@ -1,6 +1,6 @@
 //
 //  SYRSnapshotProtocols.h
-//  SYRSnapTailorDemo
+//  SYRSnapTailor
 //
 //  Created by 王珏 on 2019/5/31.
 //  Copyright © 2019 王珏. All rights reserved.
@@ -9,11 +9,18 @@
 #ifndef SYRSnapshotProtocols_h
 #define SYRSnapshotProtocols_h
 
-@protocol SYRSnapshotDataSource <NSObject>
+@protocol SYRSnapshotBaseProtocol <NSObject>
+@end
+
+@protocol SYRSnapshotInvisibleViewProtocol <SYRSnapshotBaseProtocol>
 
 @end
 
-@protocol SYRSnapshotDelegate <NSObject>
+@protocol SYRSnapshotFixedViewProtocol <SYRSnapshotBaseProtocol>
+
+@end
+
+@protocol SYRSnapshotScrollableViewProtocol <SYRSnapshotBaseProtocol>
 
 @end
 
