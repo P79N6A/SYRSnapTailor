@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "SYRSnapshotProtocols.h"
+#import "UIView+SYRSnapshot.h"
 
 @interface ViewController ()
 

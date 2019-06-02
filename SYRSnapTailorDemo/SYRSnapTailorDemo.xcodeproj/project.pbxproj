@@ -303,6 +303,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = JueWang.SYRSnapTailorDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/..\"",
+					"\"$(SRCROOT)/../Interface\"/**",
+					"\"$(SRCROOT)/../Core\"",
+				);
 			};
 			name = Debug;
 		};
@@ -320,6 +325,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = JueWang.SYRSnapTailorDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/..\"",
+					"\"$(SRCROOT)/../Interface\"/**",
+					"\"$(SRCROOT)/../Core\"",
+				);
 			};
 			name = Release;
 		};
